@@ -186,7 +186,7 @@ body.light-theme{
 .light-theme::-webkit-scrollbar-thumb:hover{
     background-color: hsl(var(--second-hue), 8%, 44%);
 }
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*=============== BASE CSS CLASSES ===============*/
 .container {
     max-width: 968px;
     margin-right: 1rem;
