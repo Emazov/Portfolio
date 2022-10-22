@@ -7,9 +7,6 @@ function scrollHeader() {
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
-
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work__container', {
     selectors: {
@@ -29,9 +26,6 @@ function  activeWork() {
 }
 
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
-
-/*=============== SWIPER TESTIMONIAL ===============*/
-
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const section = document.querySelectorAll('section[id]')
@@ -89,7 +83,6 @@ const sr = ScrollReveal({
     distance: '6px',
     duration: 2500,
     delay: 400,
-    //  reset: true,
 })
 
 sr.reveal(`.home__data`)
