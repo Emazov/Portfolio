@@ -433,7 +433,7 @@ body.light-theme{
     margin-right: auto;
     left: 0;
     right: 0;
-    top: -20px;
+    bottom: -70px;
     background-color: var(--first-color);
     color: var(--body-color);
     height: 50px;
