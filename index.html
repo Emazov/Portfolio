@@ -8,6 +8,11 @@
     <!--=============== FAVICON ===============-->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!--=============== BOX ICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
@@ -16,6 +21,7 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/quote.css">
 
     <title>PORTFOLIO</title>
 </head>
@@ -62,11 +68,9 @@
     </nav>
 </header>
 
-<!--=============== MAIN ===============-->
 
 <main class="main">
 
-    <!--=============== HOME ===============-->
     <section class="home section" id="home">
         <div class="home__container container grid">
             <div class="home__data">
@@ -105,6 +109,26 @@
                 <i class='bx bx-mouse home__scroll-icon'></i>
                 <span class="home__scroll-name">Scroll Down</span>
             </a>
+        </div>
+    </section>
+
+    <section id="quote-generator">
+        <div class="quote-generator__wrap">
+            <h2 class="quote-generator__title">Quote generator</h2>
+            <div class="quote-generator__content">
+                <div class="quote-area">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p id="quote" class="quote-text">Lorem ipsum dolor sit amet.</p>
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="quote-generator__author-wrap">
+                    <span class="quote-author__span"></span>
+                    <h3 id="author" class="quote-author">Lorem ipsum.</h3>
+                </div>
+            </div>
+            <div class="quote-generator__btn-wrap">
+                <button id="quote-btn" class="quote-btn">New quote</button>
+            </div>
         </div>
     </section>
 
@@ -340,6 +364,9 @@
 
 <!--=============== SIMPLE CLICKER ===============-->
 <script src="./js/clicker.js"></script>
+
+<!--=============== FETSHED JS ===============-->
+<script src="./js/fetshed.js"></script>
 
 </body>
 </html>
